@@ -1,7 +1,7 @@
 #include <cppunit/TestFixture.h>
 #include <cppunit/extensions/HelperMacros.h>
 #include <iostream>
-#include "shapley.h"
+#include "shapley.hpp"
 
 using namespace Shapley;
 

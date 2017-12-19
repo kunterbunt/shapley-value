@@ -65,7 +65,7 @@ namespace Shapley {
 		  members.erase(std::remove(members.begin(), members.end(), member), members.end());
 	  }
 	  
-	  bool contains(const PlayerType* member) {
+	  bool contains(const PlayerType* member) const {
 		  return std::find(members.begin(), members.end(), member) != members.end();
 	  }
 	  

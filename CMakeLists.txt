@@ -8,9 +8,10 @@ find_library(LIBRARY-PATH :libcppunit.so)
 link_directories(${LIBRARY-PATH})
 
 set(SOURCE_FILES_UNITTESTS
-        src/shapley.h
+		src/shapley.hpp
         src/tests/unittests.cpp
         src/tests/ShapleyTests.cpp
+		src/tests/TUGameShapleyTests.cpp
 )
 
 set(CMAKE_BUILD_TYPE Debug)
