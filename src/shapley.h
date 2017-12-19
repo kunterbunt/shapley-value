@@ -77,6 +77,10 @@ namespace Shapley {
 		  return members;
 	  }
 	  
+	  void clear() {
+		  members.clear();
+	  }
+
 	  /**
 	   * @param index
 	   * @return A Coalition with all members up to but not including 'index'.
