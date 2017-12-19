@@ -4,7 +4,7 @@
 
 #include <cppunit/ui/text/TestRunner.h>
 #include "tests/ShapleyTests.cpp"
-#include "tests/TUGameShapleyTests.cpp"
+#include "tests/TUGame.cpp"
 
 int main(int argc, const char *argv[]) {
 	CppUnit::TextUi::TestRunner runner;
